@@ -42,6 +42,7 @@ function SendMail() {
     var params = {
         from_name : document.getElementById("fullName").value,
         from_email : document.getElementById("email_id").value,
+        subject : document.getElementById("subject").value,
         message : document.getElementById("message").value,
         number : document.getElementById("phoneNumber").value
 
